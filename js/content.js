@@ -1,7 +1,4 @@
 $(function() {
-	// $('[data-img]').each(function() {
-	// 	$(this).addClass('loading');
-	// });
 	var template = $('template').html();
 	for(var i = 1; i <= 4; ++i) $('main section').append(template.replace('{key}', i));
 
